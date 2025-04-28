@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Information Form</title>
+</head>
+<body>
+    <h2>Employee Information Form</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="emp_code">Employee Code:</label><br>
+        <input type="text" id="emp_code" name="emp_code" required><br><br>
+
+        <label for="emp_name">Employee Name:</label><br>
+        <input type="text" id="emp_name" name="emp_name" required><br><br>
+
+        <label for="department">Department:</label><br>
+        <input type="text" id="department" name="department" required><br><br>
+
+        <label for="sap_id1">SAP Login ID 1:</label><br>
+        <input type="text" id="sap_id1" name="sap_id1" required><br><br>
+
+        <label for="sap_id2">SAP Login ID 2:</label><br>
+        <input type="text" id="sap_id2" name="sap_id2" required><br><br>
+
+        <label for="sap_id3">SAP Login ID 3:</label><br>
+        <input type="text" id="sap_id3" name="sap_id3" required><br><br>
+
+        <label for="sap_id4">SAP Login ID 4:</label><br>
+        <input type="text" id="sap_id4" name="sap_id4" required><br><br>
+
+        <label for="sap_id5">SAP Login ID 5:</label><br>
+        <input type="text" id="sap_id5" name="sap_id5" required><br><br>
+
+        <label>Usage:</label><br>
+        <input type="radio" id="report" name="usage" value="report" required>
+        <label for="report">Report</label><br>
+        <input type="radio" id="entry" name="usage" value="entry" required>
+        <label for="entry">Entry</label><br>
+        <input type="radio" id="both" name="usage" value="both" required>
+        <label for="both">Both</label><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
