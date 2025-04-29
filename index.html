@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Employee Information Form</h2>
-    <form action="submit_form.php" method="POST">
+    <form action="submit.php" method="POST">
         <label for="emp_code">Employee Code:</label><br>
         <input type="text" id="emp_code" name="emp_code" required><br><br>
 
@@ -43,7 +43,9 @@
         <label for="location">Location:</label><br>
         <input type="text" id="location" name="location" required><br><br>
 
-        <input type="submit" value="Submit">
+        <input type="submit" name='submit' value="Submit">
     </form>
 </body>
 </html>
+
+
